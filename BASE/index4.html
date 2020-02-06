@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Roboto font added -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Base</title>
+
+</head>
+<header>
+    <nav class="navbar navbar-expand-sm fond">
+        <!-- Brand -->
+        <img src="img/hippo1.png" class="visu">
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Qui suis-je ?</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            J'ai fait quoi ?
+            </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="index4.html">Mes compositions</a>
+                    <!--<a class="dropdown-item" href="#">Qui suis-je ?</a>-->
+                </div>
+            </li>
+            <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>-->
+        </ul>
+    </nav>
+    <hr>
+</header>
+
+<body>
+
+    <body onload="draw();">
+        <canvas id="canvas" width="300" height="300"></canvas>
+
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-sm-12 text-white mt-5  d-flex justify-content-center ">
+                    <h1> Les M.O.O.C.S </h1>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="bub col-sm-12 text-white mt-5 d-flex justify-content-center ">
+                    <h3 class="hub">Avec Openclassrooms, W3schools, Sololearn et khanacademy </h3>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="bub col-sm-12 text-white mt-5  d-flex justify-content-center ">
+                    <p class="bub">J'ai commencé à découvrir le code grâce aux MOOCS (Massive Open Online Courses), au départ, j'ai commencé avec des cours sur le management, les langues... puis la découverte du codage et de toutes les possibilités de langages existants
+                        permettant de construire soit-même des sites, et là ce fut le déclic ! </p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="bub col-sm-12 text-white mt-5  d-flex justify-content-center ">
+                    <ul class="bub">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>MySql</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row tub">
+                <div class="col-sm-12 text-white mt-5 mb-5 d-flex justify-content-center">
+                    <h1> Mes certificats</h1>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" baba col-sm-12 text-white mt-5 mb-5 justify-content-center">
+                    <nav aria-label="Page navigation ">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link text-white" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link text-white" href="img/certif CSS-HTML.pdf">CSS-HTML</a></li>
+                            <li class="page-item"><a class="page-link  text-white" href="img/certif-community-manager.pdf">community-manager</a></li>
+                            <li class="page-item"><a class="page-link  text-white" href="img/certif-doc-cloud.pdf">doc-cloud</a></li>
+                            <li class="page-item"><a class="page-link text-white" href="img/certif-manager-agile.pdf">manager-agile</a></li>
+                            <li class="page-item"><a class="page-link text-white" href="img/certif-numerique.pdf">certif-numerique</a></li>
+                            <li class="page-item"><a class="page-link text-white " href="img/certif-PHP-MySQL.pdf">PHP-MySQL</a></li>
+                            <li class="page-item"><a class=" biz page-link text-white " href="img/certif-sololearn.png">sololearn</a></li>
+                            <li class="page-item">
+                                <a class="page-link  text-white" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row tic">
+                <div class="bambou col-sm-12 text-white d-flex justify-content-center">
+                    <h1 class="ciru">La Code Académie</h1>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" col-md-6 ">
+
+                    <p class="com"> Il s'agit d'une formation qui permet l'apprentissage du développement web/mobile pour tous les profils qui démontrent une forte motivation à apprendre des langages de programmation.<br> Spécialement orientée vers les travaux pratiques,
+                        cette formation permet la réalisation de nombreux projets professionnels, en relation directe avec des entreprises.<br> Ainsi l'apprentissage des bases du développement web,et des langages tels que HTML5/CSS3, Javascript et PHP
+                        se déroule avec de réelles contraintes techniques en lien avec les demandes des clients.<br> La réalisation de ces projets professionnels, favorise le travail en équipe et permet donc, d’une part, de familiariser les apprenant.e.s
+                        à différentes méthodes de travail, dont le pair programming ou la méthode Agile, notamment en mode SCRUM.<br> Cela leur permet également de saisir l’opportunité d'expérimenter le développement collaboratif avec des outils tels
+                        que Git.<br> La seconde partie de formation est axée sur une spécialisation (Front End / Back-End / Mobile), ainsi chaque apprenant.e a la possibilité d'approfondir ses connaissances dans son secteur.<br> Enfin, tout au long du
+                        parcours, de nombreuses interventions d'acteurs du secteur numérique leurs permettent d'acquérir une vision globale du milieu numérique sur le bassin Rennais.</p>
+                </div>
+                <div class=" pho col-md-6 ">
+
+                    <p class="sous-titre">Travail sur Challenge</p>
+                    <img src="img/taf.jpg" alt="code Académie" height="300px" width="300px" class="dub">
+                    <p class="sous-titre2">Agilité et<br> méthode Scrum</p>
+                    <img src="img/agilite.jpg" alt="code Académie" height="300px" width="300px" class="dob">
+                </div>
+            </div>
+            <div class="row">
+                <div class=" stik col-sm-12 text-white d-flex justify-content-center pt-5 pb-5">
+                    <h2>Les dossiers PowerPoint et Excel créés</h2>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-white d-flex justify-content-center">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link text-white" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link text-white" href="https://1drv.ms/p/s!AvRIk023VnIugP87HydxY8cMrPFUmA?e=PUGKA7">Cours sur Bootstrap</a></li>
+                            <li class="page-item"><a class="page-link text-white" href="https://1drv.ms/p/s!AvRIk023VnIugP83e6WCxpIxXyR0Xg?e=CnpxC3">Hackathon avec l'Epita</a></li>
+                            <li class="page-item"><a class="page-link text-white" href="img/laravel.doc">Laravel mode d'emploi</a></li>
+
+                            <li class="page-item"><a class="page-link text-white" href="img/Excel/FEUILLE VEILLEUR.XLsx">Exercice Excel</a></li>
+                            <li class="page-item"><a class="page-link text-white" href="img/workbench.jpg">Plan de mon appli</a></li>
+                            <li class="page-item"><a class="page-link text-white " href="https://1drv.ms/p/s!AvRIk023VnIugP86wBMYroEXP9jD7Q?e=hXI8g4">mon appli de certification</a></li>
+                            <li class="page-item">
+                                <a class="page-link text-white" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-white d-flex justify-content-center">
+                    <p class="text-center">au passage, mon équipe a remporté le Hackathon !!!</p>
+                </div>
+            </div>
+            <div class="row paf">
+                <div class="col-sm-12 site text-center mt-5 mb-5">
+                    <h2 class=" stub mb-3">Le site de ma promotion est en ligne !!</h2>
+                    <a href="http://promo03.code-academie.fr/" class="border border-info p-2">et c'est ici aussi !!</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <script>
+            function draw() {
+                var canvas = document.getElementById('canvas');
+                if (canvas.getContext) {
+                    var context = canvas.getContext('2d');
+
+                    context.beginPath();
+                    context.moveTo(150, 150);
+                    context.lineTo(10, 150);
+                    context.lineTo(10, 50);
+                    context.fillStyle = "#FFCC00";
+                    context.fill();
+                }
+            }
+        </script>
+    </body>
+
+    </html

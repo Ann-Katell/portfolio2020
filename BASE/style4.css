@@ -1,0 +1,824 @@
+/* couleur de fond */
+
+.fond {
+    background-color: black;
+}
+
+
+/*  pagination */
+
+.baba {
+    display: flex;
+}
+
+
+/* ligne de séparation */
+
+hr {
+    position: absolute;
+    top: 150px;
+    width: 1400px;
+    size: 4px;
+    border: 2px solid #0a2c48!important;
+}
+
+
+/* container */
+
+.container-fluid {
+    background-color: black;
+    height: auto;
+}
+
+
+/* couleur des liens */
+
+.page-link {
+    background-color: #0027ce!important;
+    height: 58px
+}
+
+
+/* triangle */
+
+#canvas {
+    position: absolute;
+    top: 200px;
+    left: 420px;
+}
+
+
+/* div MOOCS */
+
+.bub {
+    width: 800px;
+    margin: auto;
+    font-size: 20px
+}
+
+h3 {
+    padding-bottom: 40px
+}
+
+
+/* photo2 */
+
+.dob {
+    position: absolute;
+    top: 300px;
+    left: 315px
+}
+
+
+/* titre site promo */
+
+.stub {
+    color: #fff;
+    padding-bottom: 20px!important;
+    background-color: #0a2c48;
+    border-radius: 10px;
+    width: 600px;
+    padding-top: 14px;
+    margin: auto;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+
+/* triangle */
+
+#canvas {
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+
+
+/*titre cod ac */
+
+.ciru {
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 1200px) {
+    /* triangle */
+    #canvas {
+        position: absolute;
+        top: 200px;
+        left: 380px;
+    }
+    /* p code ac */
+    .com {
+        width: 550px;
+        padding: 40px;
+        color: white;
+        border: 1px dashed #0a2c48;
+        border-radius: 6px;
+        margin-top: 40px
+    }
+    /* travail/challenge */
+    .sous-titre {
+        color: #0027ce;
+        padding: 20px;
+        font-size: 24px;
+        text-align: center
+    }
+    /* photo1 */
+    /* .dub {
+        display: flex;
+        justify-content: center;
+        margin: auto
+    }*/
+    /* photo2 */
+    /*.dob {
+        position: absolute;
+        top: 36;
+        left: 18px;
+    }*/
+    /* p code ac */
+    .com {
+        margin-top: 60px;
+        width: 600px
+    }
+    /* photo1 */
+    .dub {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        position: absolute;
+        top: 40px;
+    }
+    /* photo2 */
+    .dob {
+        left: 320px;
+        position: absolute;
+        top: 350px;
+    }
+    /*titre  travail/challenge */
+    .sous-titre {
+        color: #0027ce;
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+        position: absolute;
+        left: 350px;
+        top: 150px;
+        font-size: 24px;
+    }
+    /* titre méthodes scrum */
+    .sous-titre2 {
+        color: #0027ce;
+        font-size: 18px;
+        text-align: center;
+        position: absolute;
+        top: 450px;
+        font-size: 24px;
+    }
+}
+
+
+/****************************************************/
+
+
+/* Large devices (laptops/desktops, 1024px and down) */
+
+
+/****************************************************/
+
+@media only screen and (max-width: 1024px) {
+    /* Extra large devices (large laptops and desktops, 1224px and down) */
+    /* triangle */
+    #canvas {
+        left: 260px;
+    }
+    /* titre travail/challenge */
+    .sous-titre {
+        position: absolute;
+        color: #0027ce;
+        left: 60px;
+        font-size: 24px;
+        top: 320px
+    }
+    /* titre méthodes scrum */
+    .sous-titre2 {
+        color: #0027ce;
+        text-align: center;
+        font-size: 24px;
+        position: absolute;
+        top: 600px;
+        left: 80px;
+        z-index: 9999;
+    }
+    /* photo2 */
+    .dob {
+        position: absolute;
+        top: 380px;
+        left: 18px;
+    }
+    .com {
+        color: white;
+        width: 480px;
+        padding: 40px
+    }
+}
+
+
+/****************************************************/
+
+
+/* Large devices (laptops/desktops, 992px and down) */
+
+
+/****************************************************/
+
+@media only screen and (max-width: 992px) {
+    /* triangle */
+    #canvas {
+        left: 380px;
+    }
+    /* taille sololearn */
+    .biz {
+        height: 58px
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    /*div moocs */
+    .bub {
+        width: 650px;
+    }
+    /* p code ac */
+    .com {
+        padding: 20px;
+        color: white;
+        width: 400px;
+        padding: 20px
+    }
+    /* titre travail /challenge */
+    .sous-titre {
+        color: #0027ce;
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+        font-size: 24px;
+        position: absolute;
+        top: 320px;
+        left: 80px;
+    }
+    /* placement des photos cod ac */
+    .dub {
+        display: flex;
+        justify-content: center;
+        margin: auto
+    }
+    .dob {
+        position: absolute;
+        top: 420px;
+        right: 400px;
+        left: 50px;
+    }
+    /* titre méthodes scrum */
+    .sous-titre2 {
+        color: #0027ce;
+        font-size: 18px;
+        text-align: center;
+        font-size: 24px;
+        position: absolute;
+        top: 650px;
+        left: 80px;
+    }
+    /* triangle */
+    #canvas {
+        left: 130px;
+        position: absolute;
+        top: 175px;
+    }
+}
+
+
+/******************************************************/
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+
+
+/******************************************************/
+
+@media only screen and (max-width: 768px) {
+    /* triangle */
+    #canvas {
+        left: 140px;
+    }
+    /*taille du sololearn*/
+    .biz {
+        height: 58px
+    }
+    /* titre openclassrooms */
+    .hub {
+        text-align: center;
+        width: 750px
+    }
+    /* div titre moocs */
+    .bub {
+        width: 650px;
+        font-size: 20px
+    }
+    /* p de la cod ac */
+    .com {
+        width: 380px;
+        padding: 30px;
+        color: white;
+    }
+    /* col photos */
+    .pho {
+        height: 700px
+    }
+    /* travail/challenge */
+    .sous-titre {
+        position: absolute;
+        left: 50px;
+        top: 360px;
+        color: #0027ce;
+        font-size: 24px;
+    }
+    /* méthodes scrum */
+    .sous-titre2 {
+        position: absolute;
+        left: 100px;
+        color: #0027ce;
+        top: 780px;
+        font-size: 24px;
+    }
+    /* photo 1 */
+    .dub {
+        margin-top: 40px;
+    }
+    /* photo2 */
+    .dob {
+        position: absolute;
+        top: 440px;
+        left: 14px;
+    }
+}
+
+
+/********************************************************************/
+
+
+/* Small devices (portrait tablets and large phones, 740px and down) */
+
+
+/********************************************************************/
+
+@media only screen and (max-width: 740px) {
+    /* triangle */
+    #canvas {
+        position: absolute;
+        top: 200px;
+        left: 120px;
+    }
+    /* titre openclassrooms */
+    .hub {
+        text-align: center;
+        padding-top: 20px
+    }
+    /* div moocs */
+    .bub {
+        width: 680px;
+        font-size: 20px
+    }
+    /* photo1 */
+    .dub {
+        position: absolute;
+        top: 0px;
+        left: 38px
+    }
+    /* taille  de sololearn */
+    .biz {
+        height: 58px
+    }
+    /* pagination */
+    .pagination {
+        display: block!important
+    }
+    /* photo2 */
+    .dob {
+        position: absolute;
+        top: 340px;
+        left: 350px;
+    }
+    /* p de la cod ac */
+    .com {
+        width: 700px;
+        padding: 30px;
+        color: white;
+    }
+    /* col photos */
+    .pho {
+        height: 700px
+    }
+    /*titre travail/challenge */
+    .sous-titre {
+        position: absolute;
+        left: 400px;
+        top: 150px;
+        color: #0027ce;
+        font-size: 24px;
+    }
+    /*titre méthodes scrum */
+    .sous-titre2 {
+        position: absolute;
+        left: 100px;
+        color: #0027ce;
+        top: 450px;
+        font-size: 24px;
+    }
+}
+
+
+/****************************************************/
+
+
+/* small devices ( 736px and down) */
+
+
+/****************************************************/
+
+@media only screen and (max-width: 736px) {
+    /* div titre openclassrooms */
+    .bub {
+        width: 600px;
+        padding: 20px
+    }
+    /* p code ac */
+    .com {
+        width: 600px;
+        padding: 20px;
+        margin: auto
+    }
+}
+
+
+/*************************************************/
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+/************************************************/
+
+@media only screen and (max-width: 600px) {
+    /* hippo */
+    .visu {
+        margin-left: 400px
+    }
+    /* photo2 */
+    .dob {
+        position: absolute;
+        top: 300px;
+        left: 340px;
+    }
+    /* triangle */
+    #canvas {
+        position: absolute;
+        top: 200px;
+        left: 120px;
+    }
+    /* photo2 */
+    .dob {
+        left: 340px;
+    }
+}
+
+
+/*************************************/
+
+
+/* Iphone 6/7/8 +****max width:414px*/
+
+
+/************************************/
+
+@media only screen and (max-width: 414px) {
+    /* ligne */
+    hr {
+        top: 100px;
+    }
+    /* titre openclassrooms */
+    .hub {
+        text-align: center
+    }
+    /* div moocs */
+    .bub {
+        width: 380px
+    }
+    /* pagination */
+    .pagination {
+        display: block!important
+    }
+    /* photo1 */
+    .dub {
+        position: absolute;
+        top: 0px;
+        left: 58px
+    }
+    /*place de la div PowerPoint et Excel */
+    .stik {
+        margin-top: 600px
+    }
+    /* titre h2 */
+    .h2,
+    h2 {
+        font-size: 2rem;
+        text-align: center
+    }
+    /* photo2 */
+    .dob {
+        position: absolute;
+        top: 430px;
+        left: 58px;
+    }
+    /* titre site promo */
+    .stub {
+        font-size: 18px;
+        padding-top: 20px;
+        width: 380px;
+        padding-bottom: 20px;
+    }
+    /* triangle */
+    #canvas {
+        position: absolute;
+        top: 120px;
+        left: 30px;
+        height: 200px;
+    }
+    /* hippo */
+    .visu {
+        margin-left: 260px;
+        height: 130px;
+        position: absolute;
+        top: 6px;
+    }
+    /* p code ac */
+    .com {
+        width: 380px;
+        padding: 20px;
+        margin: auto
+    }
+    /* titre travail/challenge */
+    .sous-titre {
+        position: absolute;
+        left: 100px;
+        top: 350px;
+        color: #0027ce;
+        font-size: 24px;
+    }
+    /* titre méthodes scrum */
+    .sous-titre2 {
+        position: absolute;
+        left: 120px;
+        color: #0027ce;
+        top: 760px;
+        font-size: 24px;
+    }
+    /* col photos */
+    .pho {
+        height: 250px
+    }
+}
+
+
+/*************************************/
+
+
+/* Iphone 6/7/8 *** max width:375px*/
+
+
+/***********************************/
+
+@media only screen and (max-width: 375px) {
+    /*ligne */
+    hr {
+        top: 100px;
+    }
+    /* titre h2 */
+    .h2,
+    h2 {
+        font-size: 2rem;
+        margin: auto;
+        text-align: center;
+    }
+    /* hippo */
+    .visu {
+        margin-left: 220px;
+        height: 120px;
+        position: absolute;
+        top: 10px;
+    }
+    /* titre openclassrooms */
+    .hub {
+        text-align: center;
+        font-size: 24px;
+        padding-top: 0px;
+        height: 100px
+    }
+    /* div moocs */
+    .bub {
+        width: 300px;
+        margin-top: 0px;
+    }
+    /*pagination */
+    .pagination {
+        display: block!important
+    }
+    /* photo1 */
+    .dub {
+        position: absolute;
+        top: 0px;
+        left: 38px
+    }
+    /*place de la div PowerPoint et Excel */
+    .stik {
+        margin-top: 600px
+    }
+    /*photo2 */
+    .dob {
+        position: absolute;
+        top: 420px;
+        left: 38px;
+    }
+    /* titre site promo */
+    .stub {
+        font-size: 18px;
+        padding-top: 20px;
+        width: 340px;
+        padding-bottom: 20px;
+    }
+    /* triangle */
+    #canvas {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        height: 200px;
+    }
+    /* taille sololearn */
+    .biz {
+        height: 38px
+    }
+    /*p code ac */
+    .com {
+        width: 300px;
+        padding: 20px
+    }
+    /* titre travail/challenge */
+    .sous-titre {
+        position: absolute;
+        left: 80px;
+        top: 360px;
+        color: #0027ce;
+        font-size: 24px;
+    }
+    /* titre méthodes scrum */
+    .sous-titre2 {
+        position: absolute;
+        left: 100px;
+        color: #0027ce;
+        top: 750px;
+        font-size: 24px;
+        z-index: 99999;
+    }
+    /* col photo */
+    .pho {
+        height: 250px
+    }
+    .h1,
+    h1 {
+        font-size: 2rem!important;
+    }
+}
+
+
+/******************************************/
+
+
+/* Small devices  max width 360px         */
+
+
+/******************************************/
+
+@media only screen and (max-width: 360px) {
+    /* div Moocs */
+    .bub {
+        font-size: 18px;
+        width: 300px;
+        padding-top: 0px;
+    }
+    /* pagination*/
+    .pagination {
+        display: block!important;
+    }
+    /*row certif */
+    .tub {
+        height: 150px;
+        margin-top: 0px
+    }
+    /* photo2 */
+    .dob {
+        position: absolute;
+        left: 30px;
+        padding-bottom: 40px;
+        top: 460px;
+    }
+    /* photo1 */
+    .dub {
+        position: absolute;
+        top: 0px;
+        left: 30px
+    }
+    /* titre dossiers créés */
+    .h2,
+    h2 {
+        font-size: 20px;
+        text-justify: justify;
+        margin-left: 25px;
+        text-align: center
+    }
+    /* row titre code ac */
+    .tic {
+        margin: 0px!important
+    }
+    /* titre code ac */
+    .ciru {
+        font-size: 2.5rem;
+        text-align: center
+    }
+    /* col dossiers PowerPoint */
+    .stik {
+        margin-top: 550px
+    }
+    /* triangle */
+    #canvas {
+        position: absolute;
+        top: 120px;
+        left: 0px;
+        height: 200px;
+        width: 200px
+    }
+    /* ligne */
+    hr {
+        top: 100px;
+    }
+    /* titre h1 */
+    .h1,
+    h1 {
+        font-size: 1.5rem;
+    }
+    /*titre openclassrooms */
+    .hub {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px
+    }
+    /* hippo */
+    .visu {
+        margin-left: 200px;
+        size: 40%;
+        font-size: 40%;
+        height: 120px;
+        position: absolute;
+        top: 10px;
+    }
+    /* titre  site promo */
+    .stub {
+        font-size: 16px;
+        padding-top: 10px;
+        border: 1px solid #0a2c48;
+        width: 340px;
+        padding-bottom: 10px;
+    }
+    /* taille sololearn */
+    .biz {
+        height: 38px;
+    }
+    /* titre travail/challenge */
+    .sous-titre {
+        position: absolute;
+        color: #0027ce;
+        top: 360px;
+        left: 60px
+    }
+    /* titre méthodes scrum */
+    .sous-titre2 {
+        position: absolute;
+        text-align: center;
+        color: #0027ce;
+        top: 720px;
+    }
+    /* p code ac */
+    .com {
+        color: white;
+        padding: 20px;
+        height: 1000px
+    }
+}
